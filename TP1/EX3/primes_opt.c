@@ -8,11 +8,23 @@
 
 static bool    is_prime_opt(int n)
 {
-    // write is_prime function code here
+    int i;
+	for (i=2;i<=floor(sqrt(abs(n)));i++)
+	{
+		if (n%i==0)
+			return 0;	 
+	}
+	return 1;
 }
 
 
 void    get_primes_opt(int n)
 {
-    // write get_primes_opt function code here that use is_prime_opt function
+    int i=2;
+	while (i<=n)
+	{
+		if (is_prime_opt(i)==1)
+			printf("%d \n",i);
+		i++;
+	}
 }
