@@ -10,5 +10,5 @@ int recursive_fibo(int n)
 	{
 		return 1;
 	}
-	return (Fibb_recur(n-1)+Fibb_recur(n-2));
+	return (recursive_fibo(n-1)+recursive_fibo(n-2));
 }
