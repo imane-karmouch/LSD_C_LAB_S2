@@ -5,5 +5,9 @@
 */
 void    print_table(int *tab, int size)
 {
-    // iterate the array tab and print its elements
+    for (i=0;i<size;i++)
+    {
+        printf("%d \n",tab[i]);
+    }
+    return;
 }
