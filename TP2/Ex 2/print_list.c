@@ -1,5 +1,5 @@
 #include"header.h"
-t_list print_list(t_list L)
+void print_list(t_list L)
 {
   if(L==NULL)
     printf("[ ]");
