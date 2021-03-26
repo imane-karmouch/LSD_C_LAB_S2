@@ -1,5 +1,5 @@
 #include"header.h"
-t_list array_to_list(int element, int T[])
+t_list array_to_list(int data, int T[])
 {
   
 }
