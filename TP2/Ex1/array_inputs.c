@@ -1,5 +1,5 @@
 #include "header.h"
-void array_inputs(int **d,t_point T)
+void array_inputs(char **d,t_point T)
 {
 	int i,j;
 	for (i=0;i<T.n;i++){
