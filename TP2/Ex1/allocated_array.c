@@ -1,10 +1,10 @@
 #include "header.h"
-int  **allocated_array(t_point T)
+char  **allocated_array(t_point T)
 {
-	int **d;
+	char **d;
 	int i;
-	d=(int **)malloc(T.n*sizeof(int*));
+	d=(char **)malloc(T.n*sizeof(char*));
 	for (i=0 ;i<T.n ;i++)
-		d[i]=(int *)malloc(T.m*sizeof(int));
+		d[i]=(char *)malloc(T.m*sizeof(char));
 	return d;	
 }
