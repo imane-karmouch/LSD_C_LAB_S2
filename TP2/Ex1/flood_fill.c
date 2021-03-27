@@ -1,7 +1,7 @@
 #include"header.h"
 void flood_fill(char** d, t_point T,t_point dim,char s, char p)
 {
- if(T.n<0 || T.n>=dim.n || T.m<0 || T.m>=dim.m)
+ if(T.n<0 || T.n>=dim.n || T.m<0 || T.m>=dim.m || d[T.n][T.m]==p || d[T.n][T.m]!=s)
    return;
  if(d[T.n][T.m]==s){
         d[T.n][T.m]=p;
