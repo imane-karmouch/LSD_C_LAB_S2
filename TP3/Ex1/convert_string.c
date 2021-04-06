@@ -1,3 +1,4 @@
+#include "header.h"
 listeDouble convert_string(char *av)
 {
 	int i;
