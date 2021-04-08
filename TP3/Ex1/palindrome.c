@@ -10,7 +10,7 @@ int palindrome(listeDouble L)
 	celluleDouble *L2=L.fin;
 	if(listeDoubleVide(L)==1)
 		return 0;
-	for (i=0;i<n%2;i++)
+	for (i=0;i<n/2;i++)
 	{
 
 		if (L1->element!=L2->element)
